@@ -5,6 +5,7 @@ from .pwm import PWM
 from .servo import Servo
 from .spi import SPI
 
+I2C().reset_mcu()
 
 def __main__():
     print("Thanks for using Sunfounder IO !")
